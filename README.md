@@ -10,6 +10,8 @@ lc8
 
 lc10: regular expression
 
+lc15: 3sum
+
 ## List
 
 lc21: merge two sorted lists
