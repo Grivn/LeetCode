@@ -6,6 +6,10 @@ LC for golang
 
 lc8
 
+## Wonderful
+
+lc11, lc42: container water
+
 ## Important
 
 lc10: regular expression
