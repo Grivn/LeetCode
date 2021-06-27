@@ -4,7 +4,7 @@ LC for golang
 
 ## Target
 
-lc8
+lc8 lc46
 
 ## Wonderful
 
