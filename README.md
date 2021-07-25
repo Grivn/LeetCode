@@ -2,6 +2,14 @@
 
 LC for golang
 
+## DP problem
+
+lc91
+
+## memory copy
+
+lc78, need copy memory since pointer issue.
+
 ## Target
 
 lc8 lc46
