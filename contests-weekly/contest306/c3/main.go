@@ -59,9 +59,7 @@ func (h *handler) processor() {
 				break
 			}
 			h.reFormat(i - 1)
-			//fmt.Println(h.res)
 		}
-		//fmt.Println(h.res)
 	}
 }
 
@@ -74,32 +72,6 @@ func (h *handler) reFormat(idx int) {
 		if h.pattern[i] == 'D' {
 			h.res[i] = h.res[i] + 1
 			h.used[h.res[i]] = true
-			//if i == idx {
-			//	h.used[h.res[i]] = false
-			//	val := h.res[i] + 1
-			//	for {
-			//		if !h.used[val] {
-			//			h.res[i] = val
-			//			h.used[val] = true
-			//			break
-			//		}
-			//		val++
-			//	}
-			//	continue
-			//}
-			//if h.res[i] > h.res[i+1] {
-			//	continue
-			//}
-			//h.used[h.res[i]] = false
-			//val := h.res[i+1] + 1
-			//for {
-			//	if !h.used[val] {
-			//		h.res[i] = val
-			//		h.used[val] = true
-			//		break
-			//	}
-			//	val++
-			//}
 		}
 	}
 
@@ -110,7 +82,6 @@ func (h *handler) reFormat(idx int) {
 }
 
 func (h *handler) findValue(idx int) bool {
-	//fmt.Println(h.used)
 	if h.pattern[idx-1] == 'I' {
 		val := h.res[idx-1] + 1
 		for {
